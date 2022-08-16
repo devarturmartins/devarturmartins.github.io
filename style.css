@@ -14,10 +14,10 @@ body {
     text-align: justify;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     /* position: absolute; */
-    padding: 0 70px;
+    padding: 10px 70px;
     font-family: dosis;
     font-size: 18px;
-    
+    top: 50px;
     
 }
 .picture {
@@ -64,11 +64,17 @@ body {
     text-align:justify;
     font-family: Dosis;
 }
+#parag-redes {
+    font-style: bold;
+    width: 40;
+    text-align: center;
+}
 .redes-sociais {
     font-family: Zilla Slab;
     font-weight: bold;
-    left: 30px;
+    left: 50px;
     padding: 2em 10px;
+    text-align: center;
     
 }
 .linkedin {
