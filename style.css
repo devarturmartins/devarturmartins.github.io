@@ -62,10 +62,14 @@ body {
 }
 .lista-aprendizados {
     text-align:justify;
+    font-family: Dosis;
 }
 .redes-sociais {
-    
+    font-family: Zilla Slab;
+    font-weight: bold;
+    left: 30px;
     padding: 2em 10px;
+    
 }
 .linkedin {
     
