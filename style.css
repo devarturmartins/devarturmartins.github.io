@@ -1,32 +1,92 @@
-h2 {
-    font-family: Roboto;
+h2, h4 {
+    font-family: Zilla Slab;
     text-align: center;
-}
-h4 {
-    font-family: Roboto;
-    text-align: center;
+    
+    
 }
 
 body {
-    background: rgb(207,134,238);
-background: radial-gradient(circle, rgba(207,134,238,1) 5%, rgba(174,90,222,1) 29%, rgba(149,73,204,1) 54%, rgba(111,0,221,1) 100%);
+    background: rgb(207, 134, 238);
+    background: radial-gradient(circle, rgba(207, 134, 238, 1) 5%, rgba(174, 90, 222, 1) 29%, rgba(149, 73, 204, 1) 54%, rgba(111, 0, 221, 1) 100%);
+    padding: 3%;
+}
+#artur {
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* position: absolute; */
+    padding: 0 70px;
+    font-family: dosis;
+    font-size: 18px;
+    
+    
 }
 .picture {
-    width: 250px ;
-    height: 200px;
+    width: 300px;
+    height: 250px;
     object-fit: cover;
     object-position: -60px -30px;
     border-radius: 20%;
-    border-top-right-radius:40% ;
+    border-top-right-radius: 40%;
     border-bottom-right-radius: 40%;
- 
+    left: 70px;
+    top: -10px;
+    float: right;
+    position: relative;
+    padding: 20px;
+    /* background-color: bisque; */
+    
+}
+.image-container {
+    height: 270px;
+    
+}
+
+#motivacional {
+    font-family: Amiri;
+    font-weight: 800px;
+    font-style: italic;
+    padding: 0 40%;
+    margin-top: 60px;
+}
+
+#paragrafo-lista {
+    font-family: Zilla Slab;
+    font-weight: bold;
+    font-style: ;
+}
+.habilidades {
+    /* border: 2px solid black; */
+    text-align: center;
+    padding: 0 25%;
+    margin: 20px;
+}
+.lista-aprendizados {
+    text-align:justify;
+}
+.redes-sociais {
+    
+    padding: 2em 10px;
+}
+.linkedin {
+    
+    width: 31%;
+    display: inline-block;
+}
+.instagram {
+    
+    width: 31%;
+    display: inline-block;
+    
+}
+.github {
+    
+    width: 31%;
+    display: inline-block;
+}
 
 
-}
-#artur {
-    text-align: justify ;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
- {
-    background-color:#283618 ;
-}
+/* a div abaixo trata-se do titulo, descrição e foto */
+/* div { */
+    /* border: 2px solid black; */
+
+/* } */
